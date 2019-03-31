@@ -1,0 +1,120 @@
+ .content .col-right {
+    background: none;
+    float: left;
+    margin-left: 6px;
+    padding: 5px 10px 20px;
+    width: 96% !important;
+}
+ .content .baniere-contact{
+   background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #C3C3C3;
+    float: left;
+	padding:5px;
+ }
+ .left-contact{
+   background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #C3C3C3;
+    float: left;
+	padding:5px;
+	width: 553px;
+ 
+ }
+
+ #contenu_contact label {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+}
+ #contenu_contact .input {
+    float: left;
+    height: 55px;
+    width: 240px;
+}
+ #contenu_contact input {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #999999;
+    clear: both;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 20px;
+    width: 141px;
+}
+
+  #contenu_contact textarea {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 55px;
+    width: 391px;
+}
+#contenu_contact .msg_commentaire{
+width:87%;
+
+float:left;
+
+}
+#contenu_contact .msg_commentaire label {
+    width: 161px !important;
+}
+#contenu_contact {
+ float: left;
+    margin: 20px 0 0 0;
+    width: 100%;
+}
+
+
+
+#contenu_contact .submit input {
+    background: url("../img/submit-bg.png") no-repeat scroll 0 2px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 85px;
+    width: 85px;
+}
+#contenu_contact #contact_form{
+   float: left;
+    margin: 30px 0 0 84px;
+    width: 87%;
+}
+#contenu_contact .sujectid{
+width:100%;
+float:left;
+margin-bottom:20px;
+}
+#contenu_contact .sujectid input{
+float:none;
+width:391px;
+}
+
+/* ========Comptes ======= */
+	#formclient{
+	width:100%;
+	float:left;
+	}
+	#formclient .input {
+		float: left;
+		height: 55px;
+		width: 240px;
+	}
+	#formclient input {
+		background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+		border: 1px solid #999999;
+		clear: both;
+		color: #6E6E6E;
+		float: left;
+		font: 10px Arial,Helvetica,sans-serif;
+		height: 20px;
+		width: 141px;
+	}
+
+
+
+
+/* ll	 */
+
+

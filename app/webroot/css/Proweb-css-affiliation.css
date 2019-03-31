@@ -1,0 +1,109 @@
+.col-right #affiliation-contenu label {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+}
+.col-right #affiliation-contenu .input {
+    float: left;
+    height: 55px;
+    width: 161px;
+}
+.col-right #affiliation-contenu input {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #999999;
+    clear: both;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 20px;
+    width: 141px;
+}
+.col-right #affiliation-contenu select {
+  background: none repeat scroll 0 0 #FFFFFF;
+float: left;
+    height: 21px;
+    width: 143px;
+}
+.col-right .hotelire2 #affiliation-contenu label {
+    float: left;
+    width: 158px;
+}
+.col-right .hotelire2 #affiliation-contenu .commentaire textarea {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 30px;
+    width: 303px;
+}
+#affiliation-contenu .commentaire label {
+    width: 161px !important;
+}
+#affiliation-contenu {
+    float: left;
+    margin: 20px 0 0 0px;
+    width: 100%;
+}
+ .hotelire-p {
+    color: #000000;
+    float: left;
+    font-family: arial;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 2px;
+    margin-top: 6px;
+    text-align: justify;
+    width: 100%;
+}
+.hotelire, .hotelire2 {
+    background: none repeat scroll 0 0 #F7F7F7;
+    border: 1px solid #666666;
+    float: left;
+    margin-bottom: 4px;
+    padding: 7px;
+}
+.hotelire {
+    width: 98%;
+}
+.hotelire2 {
+    width: 62%;
+	margin-top:20px;
+}
+#affiliation-contenu .submit input {
+    background: url("../img/submit-bg.png") no-repeat scroll 0 2px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 68px;
+    width: 85px;
+}
+#affiliation-contenu #info_groupe {
+  background-color: #F7F7F7;
+  border: 1px solid #C3C3C3;
+  float: left;
+  margin-left: 44px;
+  margin-top: 28px;
+  padding-bottom: 10px;
+  width: 231px;
+}
+#affiliation-contenu #info_groupe h3{
+  color: #07759F;
+  font-family: Myriad Pro,Vnerdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 10px;
+  margin-top: 13px;
+  text-align: center;
+}
+#affiliation-contenu  #info_groupe p {
+  color: #000000;
+  float: left;
+  font-family: Myriad Pro,Vnerdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 13px;
+  line-height: 20px;
+  margin-left: 10px;
+  padding-right: 13px;
+  text-align: justify;
+}

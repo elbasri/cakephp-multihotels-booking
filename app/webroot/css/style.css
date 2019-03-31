@@ -1,0 +1,276 @@
+body{
+	background-image:url(../img/bg.jpg) ;
+	background-repeat:repeat-x;
+	background-color:#FFF;
+	font-family: "Arial";
+	
+	font-size: 11px;
+}
+
+p{
+	margin:0px;
+	padding:0px;
+}
+
+h2{
+	color: #0071b6;
+	font-size:17px;
+	margin-bottom:0px;
+	text-align: left;
+	margin-top: 10px;
+	margin-left: 0px;
+
+}
+
+h2.product{
+	color: #0071b6;
+	font-size:25px;
+	display: inline-block;
+	margin-bottom:0px;
+	margin-top: 27px;
+
+}
+
+h3{
+	color: #615e5d;
+	font-size:12px;
+	margin-bottom:14px;
+
+}
+
+
+a{
+		color:#0071b6;
+		text-decoration: none;
+}
+
+a:hover{
+		color:#e1a100;
+}
+
+a.active{
+		    background-image: url("../img/arrow_yellow.png");
+    		background-position: 0 50%;
+    		background-repeat: no-repeat;
+			color:#e1a100;
+			padding-left: 8px;
+}
+
+
+
+.container{
+	background-color:#eee;
+	border: 1px solid #DDDDDD;
+	}
+
+
+ul#menu li { 
+	display : inline;
+	padding : 0 0.8em; /* Pour espacer les boutons entre eux */
+}
+
+ul#menu {
+	list-style-type : none; /* Car sinon les puces se placent n'importe ou */
+	text-align:right;
+}
+ul#menu a{
+	text-decoration:none;
+	
+	
+}
+
+
+
+
+
+ul#langue li { 
+	display : inline;
+	padding : 0 0.5em; /* Pour espacer les boutons entre eux */
+}
+
+ul#langue {
+	list-style-type : none; /* Car sinon les puces se placent n'importe ou */
+	text-align:right;
+	margin-bottom:18px;
+}
+
+
+
+/* ---------- menu 2  ----------*/
+
+ul#menu2 li { 
+	display : inline;
+}
+
+ul#menu2 li a{ 
+
+	background-image: url("../img/menu2-sep.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+	display:block;
+ 	float:left;   
+ 	padding-left: 42px;
+ 	padding-right: 64px;
+ 	line-height:37px; 
+ 	text-decoration:none;
+	text-align:center;
+ 	text-transform: uppercase;
+}
+
+ul#menu2 li a.mylast{ 
+
+	background-image: url("../img/menu2-sep.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+	display:block;
+ 	float:left;   
+ 	padding-left: 42px;
+ 	padding-right: 60px;
+ 	line-height:37px; 
+
+
+
+}
+
+
+
+
+ul#menu2 {
+	list-style-type : none; 
+	background-image:url(../img/menu2-bg.jpg);
+	background-repeat:repeat-x;
+	height:37px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:0px;
+	padding-right:0px;
+	margin-bottom:7px;
+	
+}
+/* ---------- menu 3  ----------*/
+ul#menu3 li { 
+	display : inline;
+}
+
+ul#menu3 {
+	list-style-type : none; 
+	height:51px;
+	
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:10px;
+	padding-right:0px;
+
+	
+	
+}
+
+ul#menu3 li a{
+	display:block;
+	float:left;
+	height:51px;
+	width:50px;
+	padding-top:9px;
+}
+
+
+/* ---------- menu 4  ----------*/
+ul#menu4 li { 
+	display : inline;
+}
+
+ul#menu4 {
+	list-style-type : none; 
+	height:51px;
+	margin-right:0px;
+	margin-left:0px;
+	padding-left:10px;
+	padding-right:0px;
+}
+
+ul#menu4 li a{
+	display:block;
+	color: #8b888b;
+	float:left;
+	height:51px;
+	padding-top:9px;
+	margin: 7px;
+}
+
+ul#menu4 li a:hover{
+
+	color: #E1A100;
+}
+
+
+
+/* ---------- Footer  ----------*/
+#footer{
+	background-image:url(../img/bottom-bg.jpg);
+	background-repeat:repeat-x;
+	height:51px;
+}
+
+.myborder{
+	border:solid 1px #DDD;
+}
+
+#content{
+	margin:5px;
+}
+.miniatures{
+	border: 1px solid #CCCCCC;
+    float: left;
+    margin: 6px;
+    padding: 7px;
+    text-align: center;
+    width: 21%;
+}
+#body_content{
+	border: 1px solid #DDDDDD;
+    margin: -6px 2px 2px;
+    padding: 3px 6px;
+    text-align: justify;
+}
+
+#page_title h2{
+
+ 
+ 	color: #0071b6;
+	font-size:17px;
+	margin-bottom:0px;
+	margin-left:16px;
+ 
+ 
+ 
+}
+
+
+
+
+
+a.B { background-image: url('../img/retour.jpg'); display: block; width: 78px; height: 47px; float:right;}
+a.B:hover { background: url('../img/retour.jpg') 0 -47px }
+
+.newstitle{
+color: #0071b6;
+font-size: 13px;
+}
+.newsdate{
+color: #0071b6;
+font-size: 13px;
+text-align: right;
+}
+.cadrenews{
+	border: 1px solid #DDDDDD;
+    height: 141px;
+    padding: 9px;
+    margin: 10px;
+}
+
+
+
+
+
+
+

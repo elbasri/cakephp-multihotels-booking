@@ -1,0 +1,167 @@
+
+
+ #cboxContent{
+ background:#F7F7F7;
+ }
+ .contact-colorbox label {
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+}
+ .contact-colorbox .input {
+    float: left;
+    height: 55px;
+    width: 161px;
+}
+ .contact-colorbox input {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #999999;
+    clear: both;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 20px;
+    width: 141px;
+}
+
+  .contact-colorbox textarea#Contact-etaMessage {
+    background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 55px;
+    width: 302px;
+}
+.contact-colorbox .msg_commentaire{
+width:87%;
+
+float:left;
+
+}
+.contact-colorbox .msg_commentaire label {
+    width: 161px !important;
+}
+.contact-colorbox {
+ float: left;
+    margin: 20px 0 0 0;
+    width: 88%;
+}
+
+
+
+.contact-colorbox .submit input {
+    background: url("../img/submit-bg.png") no-repeat scroll 0 2px transparent;
+    border: medium none;
+    color: #FFFFFF;
+    float: left;
+    font-weight: bold;
+    height: 32px;
+    margin-right: 18px;
+    width: 85px;
+}
+.contact-colorbox #contact_form{
+   float: left;
+    margin: 30px 0 0 84px;
+    width: 81%;
+}
+.contact-colorbox #contact_eta{
+   float: left;
+    margin: 30px 0 0 84px;
+    width: 81%;
+}
+
+.contact-colorbox .sujectid{
+width:100%;
+float:left;
+margin-bottom:20px;
+}
+.contact-colorbox .sujectid input{
+float:none;
+width:302px;
+}
+.form_login {
+  background: none repeat scroll 0 0 #5777DD;
+  float: left;
+  height: 261px;
+  width: 300px;
+}
+#inscription_form {
+  background: none repeat scroll 0 0 #8491F0;
+  float: left;
+  height: 261px;
+  padding-left: 30px;
+   width: 300px;
+}
+.h2_inscription {
+  color: #FFFFFF;
+  float: left;
+  font-family: Myriad Pro,Vnerdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-top: 13px;
+}
+.mes_reservation_h2 {
+  color: #07759F;
+  float: left;
+  font-family: Myriad Pro,Vnerdana,Geneva,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 16px;
+  text-align: center;
+  width: 100%;
+}
+#global_color {
+width:100%;
+float:left;
+    border: 1px solid #C3C3C3;
+    
+}
+#global_color label {
+  color: #000000;
+  float: left;
+  height: 23px;
+  margin: 0 !important;
+  width: 100%;
+}
+#global_color input {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #000000;
+  float: left;
+  height: 18px;
+  margin: 0;
+  width: 180px !important;
+}
+#global_color .field{
+width:100%;
+float:left;
+margin-bottom:10px;
+}
+#global_color .login{
+float:left;
+margin:0 0 0 20px;
+}
+#global_color .input{
+height:auto !important;
+}
+#global_color .bg_btn {
+  background: none repeat scroll 0 0 #333333;
+  color: #FFFFFF !important;
+  display: block;
+  float: right;
+  font: 11px Arial,Helvetica,sans-serif;
+  height: 25px;
+  margin-right: 20px;
+  padding: 3px 10px;
+  text-align: center;
+}
+#global_color .bg_btn:hover {
+background: #1BC714;
+}
+#global_color #submit_fix{
+float:left;
+width:100%;
+margin-top:10px;
+
+}

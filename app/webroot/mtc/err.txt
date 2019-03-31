@@ -1,0 +1,2 @@
+Result code:
+Preparation error occured: Received HTTP code 0 from connect2pay.

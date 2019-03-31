@@ -1,0 +1,262 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Offre Deals Hotels Errors</title>	
+	
+	<link rel="stylesheet" href="/book/book/Booking/css/screen.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
+	<link rel="stylesheet" href="/book/book/Booking/css/plugin.css" type="text/css" media="screen" title="no title" charset="utf-8" />	
+	<link rel="stylesheet" href="/book/book/Booking/css/custom.css" type="text/css" media="screen" title="no title" charset="utf-8" />		
+	<link rel="stylesheet" href="/book/book/Booking/css/imoz.css" type="text/css" media="screen" title="no title" charset="utf-8" />		
+	<link href="/book/book/Booking/css/ui-luxia/jquery-ui-1.8.16.custom.css" rel="stylesheet" type="text/css" />
+
+	<script  type="text/javascript" src="/book/book/Booking/js/jquery/jquery.1.4.2.min.js"></script>
+	<script  type="text/javascript" src="/book/book/Booking/js/plugin.js"></script>
+	<script  type="text/javascript" src="/book/book/Booking/js/jquery/jquery-ui-1.8.9.custom.min.js"></script>
+	<script  type="text/javascript" src="/book/book/Booking/js/slate/slate.js"></script>
+	<script  type="text/javascript" src="/book/book/Booking/js/slate/slate.portlet.js"></script>
+	
+	<script type="text/javascript" src="/book/book/Booking/js/ckeditor/ckeditor.js"></script>	<script type="text/javascript" src="/book/book/Booking/js/ckfinder/ckfinder.js"></script>
+	</head>
+
+<body>
+	
+<div id="wrapper" class="clearfix">
+	
+	<div id="top"><div id="header" style="height:80px !important">
+			<h1><a href="#.html">Offre Deals Hotels</a></h1>
+			<div id="info">
+			<img src="/book/book/Booking/images/icons/user.png" /> Bienvenue admin			<a href="/book/book/Booking/users/profile">Modifier Profil</a>			<a href="/book/book/Booking/users/logout">Logout</a>			
+			</div> <!-- #info -->
+		</div>
+		<div id="nav">	
+				 <link rel="stylesheet" type="text/css" href="/book/book/Booking/css/Proweb-css-search.css" /><ul class="mega-container mega-grey">
+	<li class="mega mega-current">				
+			<a href="/book/book/Booking/hotels" class="mega-link"> <img src="/book/book/Booking/images/icons/building.png"  border="0"/> Liste des hotels</a>			
+	</li>
+	<li class="mega mega-current">				
+			<a href="/book/book/Booking/reservations" class="mega-link">
+			R√©servations	
+			<!--	<img src="/book/book/Booking/images/icons/building.png"  border="0"/> Liste des hotels-->
+			</a>			
+	</li>
+	<li class="mega mega-current">				
+			<a href="/book/book/Booking/promotions" class="mega-link">
+			Promotions	
+			<!--	<img src="/book/book/Booking/images/icons/building.png"  border="0"/> Liste des hotels-->
+			</a>			
+	</li>
+	<li class="mega mega-current">				
+					<a href="javascript:;" class="mega-tab">
+						<img src="/book/book/Booking/images/icons/wrench.png"  border="0"/> Parametrage G√©n√©ral
+					</a>
+			<div class="mega-content mega-menu ">
+				<ul>
+					<li><a href="/book/book/Booking/pays">Pays</a></li>
+					<li><a href="/book/book/Booking/villes">Villes</a></li>			
+					<li><a href="/book/book/Booking/devises">Devises</a></li>
+					<li><a href="/book/book/Booking/langues">Langues</a></li>
+					<li><a href="/book/book/Booking/carte_credits">Mode de paiement</a></li>
+				</ul>
+			</div>						
+	</li>
+				
+	<li class="mega mega-current">				
+					<a href="javascript:;" class="mega-tab">
+						 <img src="/book/book/Booking/images/icons/box.png"  border="0"/>Parametrage Chambres
+					</a>
+					<div class="mega-content mega-menu ">
+						<ul>
+							<li><a href="/book/book/Booking/chambres">Types  Chambres</a></li>
+							<li><a href="/book/book/Booking/cservices">Services Chambres</a></li>
+							<li><a href="/book/book/Booking/cservice_types">Types Services</a></li>			
+						</ul>
+					</div>						
+	</li>			
+
+	<li class="mega mega-current">				
+					<a href="javascript:;" class="mega-tab">
+						<img src="/book/book/Booking/images/icons/building_edit.png"  border="0"/> Parametrage Hotels
+					</a>
+					<div class="mega-content mega-menu ">
+						<ul>
+							<li><a href="/book/book/Booking/hotel_types">Classification</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/extras">Extras</a></li>
+							<li><a href="/book/book/Booking/extra_types">Type Extras</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/hservices">Service Hotel</a></li>
+							<li><a href="/book/book/Booking/hservice_types">Type de services</a></li>			
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/elefts">Extra left Values</a></li>
+							<li><a href="/book/book/Booking/erights">Extra right Values</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/hotels/prix">Mettre a jour les tarifs(a partir)</a></li>
+						</ul>
+					</div>						
+	</li>
+	
+	<li class="mega mega-current">				
+					<a href="javascript:;" class="mega-tab">
+						<img src="/book/book/Booking/images/icons/building_edit.png"  border="0"/> CMS
+					</a>
+					<div class="mega-content mega-menu ">
+						<ul>
+							<li><a href="/book/book/Booking/featureds">Coup de coeur</a></li>
+							<li><a href="/book/book/Booking/banners">Bannieres</a></li>
+							<!--<li><a href="/book/book/Booking/hpromotions">Hotel en promotion</a></li>-->
+							<li><a href="/book/book/Booking/sliders">Sliders</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/guides">Guide maroc</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/activites">Liste des activit√©s</a></li>
+							<li><a href="/book/book/Booking/activite_categories">Cat√©gories des activites</a></li>
+							<li>--------------------</li>
+							<li><a href="/book/book/Booking/contents">Pages</a></li>
+						</ul>
+					</div>
+	</li>
+	
+</ul>
+
+
+		</div> <!-- #nav -->
+	</div> <!-- #top -->
+	
+	<div id="content" class="xfluid">
+				
+		<div class="portlet x9" style="min-height: 600px;">
+			<div id="index" class="portlet-content">
+									  <h2>Not Found</h2>
+<p class="error">
+	<strong>Error: </strong>
+	The requested address <strong>'/img/nosdeals.jpg'</strong> was not found on this server.</p>			</div> 
+		</div> 
+				
+		 <script>
+function getDialogContent(url,sender){
+		$.get(url, function(data) {
+					$("#dialogSender").html(sender);
+					$('#dialog_content').html(data);
+					
+					if(open){
+						$('#sdialog').dialog('open');
+					}
+				$('#sdialog table.sortTable').dataTable ({
+					"sScrollY": "400px",
+					"bFilter": false,
+					"bSort": false ,
+					"bPaginate": false,
+					"bInfo": false,
+					//"bAutoWidth": false,
+					"sScrollX": "100%"
+				//	"sScrollXInner": "110%"
+
+				});
+				
+		});
+}
+
+
+$('.input_search').live ('click' , function () { 
+				var url = $(this).attr("href");
+				var sender =$(this).attr("id");
+		//		alert(sender);
+				getDialogContent(url,sender);
+				return false;
+});
+	
+function setSelectEvent(){
+	$('.tsearch tbody tr').live ('dblclick' , function () { 
+			var firstTd =$(this).children('td:first');
+			var selectedVal = firstTd.attr("id");
+				selectedVal = selectedVal.substring(3);
+			var sender = $("#dialogSender").html();
+				sender = sender.substring(3);
+			$("#val"+sender).val(selectedVal);
+			$("#dis"+sender).val(firstTd.html());
+			$('#sdialog').dialog('close');
+			
+	});	
+}
+
+jQuery(function($) {
+	setSelectEvent();
+	$('#sdialog').dialog({
+        autoOpen: false,
+		draggable: false,
+		width: 900,
+        //height: 600,
+       // bgiframe: true,
+        modal: true,
+		position: 'top'
+		});	
+});	
+
+// Code pour la gestion Acruds 
+$('#btn_add_pop').click(function(){
+		var action =$(this).attr("href");
+		
+		$.get(action, function(data) {
+				$('#dialog_content').html(data);
+				$('#sdialog').dialog('open');
+			});
+		return false;	
+	});
+	$('#btn_edit_pop').click(function(){
+			var ligneId=$(".mydatatable .row_selected td:first").attr("id");
+			
+			if (!ligneId) {
+				alert('Pas de selection!');
+				return false;
+			}
+		ligneId=ligneId.substring(3);
+		var action =$(this).attr("href");
+		$.get(action +'/'+ ligneId, function(data) {
+				$('#dialog_content').html(data);
+				$('#sdialog').dialog('open');
+			});
+		return false;	
+	});
+</script>
+<div id="sdialog">
+	<div id="dialog_content" class="x11">
+			</div>	
+	<a id="dialogSender" style="visibility:hidden" href="#"></a>
+</div>
+
+
+		
+		
+		
+	<div id="footer">
+		
+		<p>Copyright &copy; 2011, all rights reserved by Offre Deals Hotels.</p>
+		
+	</div> <!-- #footer -->
+	
+</div> <!-- #wrapper -->
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+$(function () 
+{
+	slate.init ();
+	slate.portlet.init ();	
+});
+</script>
+	
+</body>
+
+</html>
+<!-- Localized -->Ä
+(¢Ä
+(¢Ä
+(¢Ä
+(¢Ä?ˇŸ

@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.col-left h1 {
+	color: #07759F;
+	font-size: 12px;
+	margin-bottom: 4px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+#contenu_guide {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #666666;
+	float: left;
+	margin-left: 6px;
+	padding: 5px 10px 20px 10px;
+	width: 440px;
+}
+#contenu_guide p {
+	color:#000;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:justify;
+}
+.guide .current {
+	background:url(../img/current-li.png) repeat-x;
+	color:#FFF;
+}
+.guide .current a{
+	color:#FFF;
+}
+#contenu_guide h1 {
+	border-bottom: 1px solid #DDDDDD;
+	color: #07759f;
+	font-size: 21px;
+	margin-bottom: 4px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+#contenu_guide img {
+	border:1px solid #666;
+	padding:6px;
+	background:#FFF;
+}
+#contenu_guide .img_guide {
+	width:1005;
+	float:left;
+	padding-bottom:8px;
+}
+#contenu_guide .galery {
+	width:100%;
+	float:left;
+	margin-top:20px;
+}
+#contenu_guide .galery img {	margin-left:2px;
+}
+#contenu_guide .galery img.last {
+	margin-left:0px;
+}
+#contenu_guide h3 {
+	color: #07759f;
+	font-size: 21px;
+	margin-bottom: 4px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+#contenu_guide h4 {
+	color: #07759f;
+	font-size: 13px;
+	margin-bottom: 4px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+.Activite_left {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #666666;
+	float: left;
+	margin-bottom: 4px;
+	padding: 7px;
+	width: 144px;
+	margin-top:10px;
+}
+.TitreLeft {
+	border-bottom: 1px solid #333333;
+	color: #07759F;
+	float: left;
+	font-family: "Minion Pro";
+	font-size: 14px;
+	width: 100%;
+}
+.Activite_left select {
+	background: url("../img/selectVilles.png") repeat-x scroll 0 0 transparent;
+	border: 1px solid #666666;
+	float: left;
+	height: 20px;
+	width: 130px;
+}
+.Activite_left  .Meteo {    float: left;    height: 57px;    margin-top: 13px;    width: 50px;}.Activite_left  .Meteo  img{border:1px #ccc solid;box-shadow:10px 10px 5px #888;}.Activite_left   .meteo-wind{color: #000; width:100%;  font-size:12px;  float:left;  height:20px;}.Activite_left  .meteo-humidity{color: #000; width:100%;  font-size:12px;}.Activite_left  .ville-meteo {color: #C4094D; font-size:14px;} 
+.Activite_left .MeteoText {  background: url("../img/thermometer.png") no-repeat scroll 0 17px transparent;  float: left;  height: 40px;  padding-left: 15px;  padding-top: 16px;  width: 70px;}
+.description {
+	width:95%;	float:left;	padding:5px;	overflow : hidden ;
+	margin-left:13px;
+}
+.description ul li {
+	font-size:11px;
+	font-family:Myriad;
+	color:#c4094d;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.description ul li span {
+	font-size:11px;
+	font-family:Myriad;
+	color:#000;
+	font-weight:normal;
+}
+.guide {
+	border-left:1px solid #666;
+	border-top:1px solid #666;
+	border-right:1px solid #666;
+}
+.guide li {
+	border-bottom:1px solid #666;
+	
+}
+.guide li.first {
+   color: #07759F !important;
+    font-size: 12px;
+    font-weight: bold;
+    height: 10px;
+    padding-top: 9px;
+    text-transform: uppercase;
+}
+.guide li a {
+	text-transform:uppercase;
+	color:#666;
+	display:block;
+	font-size:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	/*font-family: "Myriad Pro", Arial, Helvetica, Tahoma, sans-serif;*/
+}

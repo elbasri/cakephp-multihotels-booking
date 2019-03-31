@@ -1,0 +1,1 @@
+<?phpclass Newd extends AppModel{	var $name = 'Newds';	var $useTable ='newds';  }?>

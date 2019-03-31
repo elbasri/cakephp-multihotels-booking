@@ -1,0 +1,173 @@
+/*Featured Area*/
+
+#contentwrap{
+    position: relative;
+    width: 950px;
+	clear: both;
+    
+    padding-left: 0 !important;
+    position: relative;
+}
+
+
+/*accordion slider*/
+.featured img{
+display:block;
+position: relative;
+z-index: 2;
+}
+
+.fadeout{
+position:absolute;
+width:200px;
+display:block;
+right:0px;
+z-index: 4;
+}
+
+.sliderheading{
+color: #444;
+display:block;
+font-size: 18px;
+}
+
+.heading_clone{
+position: absolute;
+z-index: 4;
+bottom:20px;
+left:20px;
+font-size: 12px;
+font-weight:normal;
+text-align:center;
+text-transform: uppercase;
+padding:0;
+margin: 0;
+}
+
+.featured{
+border-left:1px solid #aaa;  
+background: #fff url(../img/preload.gif) no-repeat center center;
+border-top:none;
+}
+
+
+.featured a, .featured a img, .featured img{
+text-decoration: none;
+border:none;
+}
+
+.featured1{
+border:none;
+display: block;
+}
+
+
+.preloading_background{
+background: transparent url(../img/preload.gif) no-repeat 50% 50%;
+}
+
+.fadeout{
+background: transparent url(../img/overlay.png) repeat-y right top;
+}
+
+.bottom_left_rounded_corner{
+background: transparent url(../img/rounded.png) no-repeat left bottom;
+}
+.bottom_right_rounded_corner{
+}
+
+.feature_excerpt{
+border-top:1px solid #eee;
+}
+
+.position_excerpt,  #featured .feature_excerpt{
+background: #fff;
+}
+
+#featured a{
+color:#000000;
+}
+
+ .slidecontrolls span{
+background:transparent url(../img/slide_controlls.png) no-repeat top right;
+}
+
+ .slidecontrolls .active_item, #top .slidecontrolls span:hover{
+background:transparent url(../img/slide_controlls.png) no-repeat top left;
+}
+
+
+
+
+#featured, .featured, .fadeout, .newsselect{ 
+height:300px; 			/*this changes the height of the image slider*/
+}
+
+#feature_wrap{
+width:950px;
+position: relative;
+
+}
+
+#featured{
+position: relative;
+width:950px;
+overflow: hidden;
+}
+
+
+
+.featured{
+width:700px;
+position:absolute;
+top:0;
+left:0;
+overflow: hidden;
+display:none;
+}
+
+.feature_excerpt{
+width:660px;
+position: absolute;
+display: block;
+bottom: 0;
+left:0;
+z-index: 3;
+padding:10px 20px;
+font-size: 11.5px;
+line-height:1.5em;
+cursor: pointer;
+}
+
+.sliderdate{
+display:none;
+}
+
+/*fadeslider*/
+.fadeslider .featured{
+width:100%;
+border:none;
+}
+
+.slidecontrolls{
+position:absolute;
+width:10px;
+right:-15px;
+bottom:0;
+
+}
+
+.slidecontrolls span{
+height:10px;
+padding:2px 0;
+width:10px;
+display:block;
+cursor: pointer;
+}
+
+
+.fadeslider .feature_excerpt{
+width:917px;
+}
+
+

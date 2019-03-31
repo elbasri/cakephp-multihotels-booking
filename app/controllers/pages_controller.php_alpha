@@ -1,0 +1,77 @@
+<?php
+class PagesController extends Controller {
+	var $name = 'Pages';
+	var $helpers = array('Html', 'Session','Form');
+	var $uses = array('Pay','Hotel','HotelPhoto');
+	var $layout = 'front' ;
+	
+	
+	function beforeFilter(){
+		parent::beforeFilter();
+		$pays = $this->Pay->find('list');
+		$villes = $this->Pay->Ville->find('list');
+		$this->set(compact('villes','pays'));
+	}
+	
+	function home(){
+		
+	}
+	
+	
+	function villas_appart(){
+		$hotels	= $this->Hotel->find('all',array('conditions'=>array('Hotel.hotel_type_id'=>array(6,4))));	
+		$pageTitle = 'Villas-Appart' ;
+		$this->set(compact('hotels','pageTitle'));
+		$this->render(null,null,'hotels');
+	}
+	
+	function hotels(){
+		$hotels	   = $this->Hotel->find('all',array('conditions'=>array('Hotel.hotel_type_id'=>1)));	
+		$pageTitle = 'Hôtels' ;
+		$this->set(compact('hotels','pageTitle'));
+	}
+	function riads(){
+		$hotels	= $this->Hotel->find('all',array('conditions'=>array('Hotel.hotel_type_id'=>5)));	
+		$pageTitle = 'Riads' ;
+		$this->set(compact('hotels','pageTitle'));
+		$this->render(null,null,'hotels');
+	}
+	
+	function hotel($hotel_id){
+		
+		$h	= $this->Hotel->read(null,$hotel_id);
+		$photos = $this->HotelPhoto->find('all',array('conditions'=>array('HotelPhoto.hotel_id'=>$hotel_id)));
+		$this->set(compact('h','photos'));
+		//debug($photos);
+	}
+	
+	
+	
+	
+	
+	
+/*
+	function display() {
+		$this->layout = "mobile";
+		$path = func_get_args();
+
+		$count = count($path);
+		if (!$count) {
+			$this->redirect('/');
+		}
+		$page = $subpage = $title_for_layout = null;
+
+		if (!empty($path[0])) {
+			$page = $path[0];
+		}
+		if (!empty($path[1])) {
+			$subpage = $path[1];
+		}
+		if (!empty($path[$count - 1])) {
+			$title_for_layout = Inflector::humanize($path[$count - 1]);
+		}
+		$this->set(compact('page', 'subpage', 'title_for_layout'));
+		$this->render(implode('/', $path));
+	}
+	*/
+}

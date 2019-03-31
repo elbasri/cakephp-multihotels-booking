@@ -1,0 +1,482 @@
+.accept_conditions a{
+color:#CC0033;
+}
+#DemandeDemandeForm  #textarea{
+width:100% !important;
+}
+#DemandeDemandeForm  textarea{
+
+  background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    color: #6E6E6E;
+    float: left;
+    font: 10px Arial,Helvetica,sans-serif;
+    height: 55px;
+    width: 476px;
+
+}
+#DemandeCommentaireClient{
+}
+
+.catBox {
+	background: none repeat scroll 0 0 transparent;
+	border-bottom: medium none;
+	float: left;
+	height: 33px;
+	padding: 8px 50px 8px 12px;
+	width: 512px;
+}
+.prodviewbox {
+	border-right: medium none;
+}
+.catBinfo .resultnum{ 
+float:left;
+width:100%;
+
+}
+.Pub {
+	float: right;
+	height: 600px;
+	padding: 10px;
+	width: 314px;
+}
+#info_groupe {
+	background-color: #F7F7F7;
+	border: 1px solid #C3C3C3;
+	float: left;
+	margin-left: 47px;
+	margin-top: 15px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	width: 231px;
+}
+#info_groupe p {
+	color: #000000;
+	float: left;
+	font-family: Myriad Pro, Vnerdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 8px;
+	text-align: justify;
+	width: 92%;
+}
+#info_groupe h6 {
+	text-align: center;
+}
+.tete_tab {
+	background: none repeat scroll 0 0 #E52E84;
+	color: #555555;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+.tete_tab th {
+	color: #FFFFFF;
+	text-align: center;
+}
+.chambre_planning th, td {
+	color: #000000;
+	padding: 2px 2px 3px 0;
+	text-align: center;
+}
+.dispo td {
+	color: #FF005F;
+	font-weight: bold;
+}
+.dispo th {
+	font-weight: bold;
+}
+.info_client_h6 {
+	border-bottom: 1px solid #666666;
+	color: #07759F;
+	float: left;
+	font-size: 12px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	width: 504px;
+}
+.info_client {
+	float: left;
+	margin-top: 10px;
+	width: 100%;
+}
+.info_client div {
+	float: left;
+	height: 45px;
+	width: 141px !important;
+}
+.info_client .left-res{
+ margin-left: 41px;
+}
+#columnsright .col-bottom{
+width:100%;
+float:left;
+}
+.info_client .left-vil{
+	 margin-left: 222px;
+	}
+#columnsright label {
+	float: left;
+	width: 100%;
+	height:15px;
+	color:#000;
+}
+
+#columnsright .info_client input {
+	float: left;
+	height: 20px;
+	width: 141px;
+}
+#columnsright .submit {
+	border: medium none !important;
+	height: 35px;
+	margin-left: inherit;
+	margin-top: 12px;
+	width: 95px;
+}
+input, select {
+	background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+}
+#ReservationPayId {
+	color: #000000;
+	height: 22px;
+}
+#ReservationPay {
+	width:100%;
+	float:left;
+}
+#ReservationTelephone {
+	width:100%;
+	float:left;
+}
+#columnsright {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #D1D2D3;
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 505px;
+}
+#ReservationReserverForm {
+	float: left;
+	width: 100%;
+}
+.chambre_reservation {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-top: 10px;
+	padding: 10px;
+	width: 505px;
+}
+.chambre_reservation .resa_du,.chambre_reservation .resa_au{
+float: left;
+	width: 79px;
+	color:#E52E84;
+	
+	}
+.chambre_reservation .resa_du span,.chambre_reservation .resa_au span{
+float: right;
+font-weight:bold;
+color:#07759F;
+	}
+.chambre_reservation .resa_au{
+margin-left:5px;
+	}
+.mode_paiement {
+	float: left;
+	width: 100%;
+}
+.chambre_table {
+	border: 1px solid #D1D2D3;
+	border-collapse: collapse;
+	line-height: 20px;
+	margin-top: 5px;
+	width: 100%;
+}
+.conditions h3, .extra_container h2, .mode_paiement h3 {
+	color: #07759F;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.mode_paiement li span {
+	float: left;
+	height: 30px;
+	width: 50px;
+}
+.mode_paiement ul li {
+	color: #000000;
+	float:left;
+	width:100%;
+}
+.extra_container {
+	float: left;
+	width: 526px;
+}
+.conditions {
+	float: left;
+	width: 641px;
+}
+.conditions p {
+	color: #000000;
+	float: left;
+	line-height: 20px;
+	margin-left: 32px;
+	padding-bottom: 20px;
+	text-align: justify;
+	width: 471px;
+}
+.extra {
+	float: left;
+	margin-left: 30px;
+	width: 221px;
+}
+.extra_container h3 {
+	color: #333333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 10px;
+	padding-bottom: 5px;
+}
+.extra_container li {
+	background: url("../img/bg-li-reservation.png") no-repeat scroll 0 5px transparent;
+	color: #000000;
+	margin-bottom: 10px;
+	padding-left: 14px;
+	text-align: justify;
+}
+.top_tarif {
+	float: left;
+	width: 641px !important;
+}
+.top_pub {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding: 5px;
+	width: 100%;
+}
+.Pub h6 {
+	border-bottom: 1px solid #CCCCCC;
+	color: #07759F;
+	float: left;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 7px;
+	padding-bottom: 10px;
+	padding-top: 5px;
+	text-transform: uppercase;
+	width: 95%;
+}
+.top_pub b {
+	color: #07759F;
+	float: left;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	margin-left: 7px;
+	padding-top: 5px;
+	text-transform: uppercase;
+	width: 100%;
+}
+.images_Pub {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #CCCCCC;
+	float: left;
+	height: 72px;
+	margin-right: 9px;
+	margin-top: 12px;
+	padding: 5px;
+	width: 82px;
+}
+.images_Pub img {
+	float: left;
+	height: 70px;
+	width: 80px;
+}
+.Pub hr {
+	background-color: #C0C0C0;
+	border: 0 none;
+	color: #E6E6E6;
+	float: left;
+	height: 1px;
+	margin-bottom: 9px;
+	margin-left: 8px;
+	margin-top: 8px;
+	padding: 0;
+	width: 95%;
+}
+#info_groupe hr {
+	margin-left: 25px;
+	width: 83%;
+}
+.buttom_pub {
+	background: none repeat scroll 0 0 #F7F7F7;
+	border: 1px solid #CCCCCC;
+	float: left;
+	margin-top: 8px;
+	padding: 5px;
+	width: 100%;
+}
+.buttom_pub p {
+	color: #000000;
+	float: left;
+	font-family: Myriad pro;
+	font-size: 14px;
+	line-height: 20px;
+	margin-top: 8px;
+	text-align: justify;
+	width: 100%;
+}
+.images_pub {
+	background: none repeat scroll 0 0 #FFFFFF;
+	border: 1px solid #C0C0C0;
+	float: left;
+	height: 62px;
+	margin: 6px;
+	padding: 5px;
+	width: 70px;
+}
+.commentaire_clt {
+	float: left;
+	width: 65%;
+}
+.commentaire_clt label {
+	float: left;
+	width: 100px;
+}
+#ReservationCommentaireClient {
+	background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+	float: left;
+	height: 80px;
+	width: 323px;
+}
+#ReservationCivilite {
+	color: #000000;
+	height: 22px;
+	width: 50px !important;
+}
+.submit input {
+	background: url("../img/submit-bg.png") no-repeat scroll 0 2px transparent;
+	border: medium none;
+	color: #FFFFFF;
+	float: left;
+	font-weight: bold;
+	height: 32px;
+	width: 85px;
+}
+.top_pub h3 {
+}
+.top_pub .nom-hotel {
+	color: #07759F;
+	float: right;
+	font-size: 13px;
+	margin-top: 8px;
+	width: 67%;
+}
+#item-list {
+	float: left;
+	height: 41px;
+	margin-top: 17px;
+	width: 155px;
+}
+#item-list li {
+	color: #FF0066;
+	float: left;
+	font-size: 13px;
+	width: 100%;
+}
+#item-list li span, .sejour span {
+	color: #000000;
+	float: right;
+	font-size: 12px;
+	height: 20px;
+}
+.top_pub .depo {
+	color: #FF0066;
+	float: left;
+	font-size: 13px;
+	width: 130px;
+}
+.prix_pub {
+	color: #000000 !important;
+	float: right;
+	margin-top: 20px;
+	text-align: right;
+	width: 55px;
+}
+.prix_depo {
+	color: #000000 !important;
+	float: right;
+	text-align: right;
+	width: 80px;
+}
+.sejour {
+	color: #000000;
+	float: left;
+	font-size: 12px;
+	font-weight: bold;
+	margin-top: 7px;
+	padding-left: 10px;
+	width: 69% !important;
+}
+.prix_sejour {
+	color: #000000 !important;
+	float: right;
+	margin-top: 7px;
+	text-align: right;
+	width: 80px;
+}
+.mode_paiement span.security {
+	background: url("../img/securite.png") no-repeat scroll 0 0 transparent;
+	float: right;
+	height: 19px;
+	width: 111px;
+}
+#ReservationAdresse{
+	
+ background: url("../img/bg_input.png") repeat-x scroll 0 0 #FFFFFF;
+    float: left;
+    height: 20px;
+    width: 323px;	
+	}
+.Adresseid{
+width:244px !important;
+
+float:left;	
+}
+#DemandeDemandeForm div{
+	float: left;
+	height: 45px;
+	width: 167px !important;
+}
+#DemandeDemandeForm div input[type='text']{
+background: url("../img/bg_input.png") repeat-x scroll 0 0 transparent;
+float: left;
+    height: 20px;
+    width: 141px;
+}
+#DemandeDemandeForm select#DemandePays{
+   float: left;
+    width: 100%;
+	height:23px;
+}
+
+#columnsright  #DemandeDemandeForm .submit {
+margin-top:50px;
+width: 95px !important;
+}
+#columnsright  #p-demande{
+color: #000;
+    font: bold 12px Arial,Helvetica,sans-serif;
+}
+#DemandeDemandeForm{ 
+width:100%;
+float:left;
+margin:15px 0;
+}

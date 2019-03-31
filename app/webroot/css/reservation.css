@@ -1,0 +1,291 @@
+.right {
+	float:right !important;
+}
+.left {
+	float:left !important;
+}
+.clear {
+	clear :both !important;
+}
+
+/*********Search Popup*******************/
+h1.close {
+	/*background-image: url("../images/arrowright.gif");*/
+	background-color: #2A5CDB;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding: 2px 5px;
+	height : 14px;
+}
+#search_popup .btn_send {
+	background-color: #2A5CDB;
+	border: 1px none;
+	border-radius: 3px 3px 3px 3px;
+	color: #FFFFFF;
+	cursor: pointer;
+	float: left;
+	font-size: 12px;
+	margin: 0px 3px 5px;
+	padding: 3px 14px;
+}
+#search_popup div.input {
+	float : right;
+	clear :both;
+	width : 98%;
+	height : 28px;
+}
+#search_popup label {
+	width :60px;
+}
+#search_popup {
+	background-color: #FFFFFF;
+	border-color: #CCCCCC;
+	border-style: solid;
+	border-width: 2px;
+	z-index : 100;
+	width : 190px;
+	/*height : 40px ;*/
+			position: absolute;
+}
+#search_popup .fleche {
+	background-image: url("../images/arrowright.gif");
+	width :12px;
+	height : 22px;
+	left: 100%;
+	margin-right: -11px;
+	margin-top: -2px;
+}
+
+
+.Paimenet_info {
+	width: 666px;
+	float:left;
+}
+.Pub {
+	width:200px;
+	float:right;
+	height:600px;
+}
+.chambre_reservation {
+	float:left;
+	width: 665px;
+}
+.chambre_table {
+	border: 1px solid #D1D2D3;
+	border-collapse: collapse;
+	line-height: 25px;
+	margin-top: 5px;
+	width: 100%;
+}
+.chambre {
+	text-align:center !important;
+}
+.qte, .total, .dispo {
+	text-align:center !important;
+}
+.total {
+	color:#C06;
+}
+.chambre_reservation td {
+	/*text-align:justify;*/
+}
+.tete_tab {
+	background:#DFDFE0;
+	color: #555555;
+	font-family: Tahoma, Verdana, Arial;
+	font-size: 12px;
+	font-weight:bold;
+}
+.tete_tab th {
+	text-align:center;
+}
+.chambre_planning td.disponible{
+	color: #093;
+}
+..chambre_planning th {
+	font-weight:bold;
+}
+.chambre_planning {
+	border-collapse: collapse;
+	line-height: 15px;
+	margin-top: 5px;
+	width: 100%;
+}
+/*
+#ReservationReserverForm {
+	margin-top:10px;
+	border: #D1D2D3 1px solid;
+	float:left;
+	padding-left: 25px;
+	width: 638px;
+}
+
+.info_client {
+	width:633px;
+	height:60px;
+	float:left;
+	margin-top: 30px;
+}
+.info_client div {
+	width:203px;
+	height:30px;
+	float:left;
+}
+.info_client_h6 {
+	color: #DC2B7B;
+	font-size: 12px;
+	text-transform: capitalize !important;
+	float:left;
+	margin: 10px 0 0 25px;
+}
+.commentaire_clt label {
+	width:114px !important;
+}
+.commentaire_clt {
+	width:300px;
+	float:left;
+}
+#ReservationReserverForm label {
+	width:57px;
+	padding-bottom:5px;
+}
+.mode_paiement {
+	width:641px;
+	float:left;
+	margin-left:25px;
+}
+.conditions h3, .extra_container h2, .mode_paiement h3 {
+	font-size:12px;
+	color: #DC2B7B;
+	margin-left: 10px;
+	margin-top:10px;
+}
+.extra_container h2 {
+	margin-left:35px !important;
+}
+.extra_container {
+	width:641px;
+	float:left;
+}
+.conditions {
+	width:641px;
+	float:left;
+	margin-left:25px;
+}
+.conditions p {
+	float: left;
+	line-height: 20px;
+	text-align: justify;
+	width: 622px;
+}
+.extra {
+	float:left;
+	margin-left:30px;
+	width: 179px;
+}
+.extra_container h3 {
+	color:#333;
+	font-family:Tahoma, Geneva, sans-serif;
+	font-size:11px;
+	margin-top:10px;
+	padding-bottom: 5px;
+}
+.extra_container li {
+	list-style-type:square;
+	text-align:justify;
+	margin-bottom:10px;
+}
+.top_tarif {
+	width:641px !important;
+	float:left;
+}
+.submit input {
+	font-size: 13px;
+	height: 27px;
+	width: 111px;
+}
+.Top_pub {
+	border: 1px solid #CCCCCC;
+	float: left;
+	padding: 5px;
+	width: 188px;
+}
+.But_pub {
+	background-color: #E5E5E6;
+	border: 0 none;
+	float: left;
+	line-height: 20px;
+	margin-right: 10px;
+	margin-top: 5px;
+	padding: 8px;
+ width: 184px;
+}
+.images_Pub {
+	background: none repeat scroll 0 0 BLAck;
+	float: left;
+	height: 76px;
+	margin: 6px;
+	width: 70px;
+}
+#item-list li {
+	font-size: 10px;
+	margin-left: 3px;
+	padding-left: 9px;
+}
+.prix_pub {
+	width:200px;
+	float:left;
+	height:20px;
+	font-size:12px;
+	border-bottom: 2px solid ##DC2B7B;
+	text-align: right;
+}
+.Top_pub h3 {
+	width:95px;
+	float:right;
+}
+.Top_pub b {
+	 background-color: #DB2A7A;
+    border-bottom: 0 none;
+    color: #FFFFFF;
+ 
+    float: left;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 11px;
+    line-height: 35px;
+    margin: -4px 0 2px -4px;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 190px;
+}
+#item-list {
+	width:200px;
+	float:left;
+}
+.depo, .prix_depo, .sejour, .prix_sejour {
+	width:185px !important;
+	float:left;
+	font-weight:bold;
+	color:#75818C;
+}
+.prix_depo {
+	text-align:right;
+	font-weight:bold;
+	font-size:16px;
+	color:#C06;
+}
+.sejour {
+}
+.prix_sejour {
+	text-align:right;
+	font-weight:bold;
+}
+.But_pub h3{ font-size:14px; color:#666; font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif; width:150px; float:left; }
+.But_pub p { width:180px; float:left; text-align:justify; }
+
+.images_Pub img{
+	  width: 70px;
+	  height: 76px;
+}
